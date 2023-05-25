@@ -1,42 +1,42 @@
 class Car:
-    def accelerate():
+    def accelerate(self):
         print("The car is now at top speed")
 
-    def nationality():
+    def nationality(self):
         print("A car's nationality is it's country of origin")
 
 
-    def honk():
+    def honk(self):
         print("The car goes beep!")
 
 class Audi(Car):
-    def accelerate():
+    def accelerate(self):
         print("Audi top speed at 130 mph")
 
-    def nationality():
+    def nationality(self):
         print("Audi is a German company")
 
-    def honk():
+    def honk(self):
         print("Audi goes Beep!")
 
 class Ferrari(Car):
-    def accelerate():
+    def accelerate(self):
         print("Ferrari top speed at 135 mph")
 
-    def nationality():
+    def nationality(self):
         print("Ferrari is an Italian company")
 
-    def honk():
+    def honk(self):
         print("Ferrari goes beep!")
 
 class Bentley(Car):
-    def accelerate():
+    def accelerate(self):
         print("Bentley top speeds at 120 mph")
 
-    def nationality():
+    def nationality(self):
         print("Bentley is a British company")
 
-    def honk():
+    def honk(self):
         print("Bentley goes beep!")
 
 
@@ -51,6 +51,7 @@ class vector:
         a_sum=self.a+other.a
         b_sum=self.b+other.b
         sum=vector(a_sum,b_sum)
+        return sum
 
 
 def fun(obj):
