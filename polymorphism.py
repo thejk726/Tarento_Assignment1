@@ -33,7 +33,7 @@ class Bentley(Car):
     def accelerate():
         print("Bentley top speeds at 120 mph")
 
-    def origin():
+    def nationality():
         print("Bentley is a British company")
 
     def honk():
@@ -54,7 +54,7 @@ class vector:
 
 
 def fun(obj):
-    obj.origin()
+    obj.nationality()
     obj.accelerate()
     obj.honk()
 
