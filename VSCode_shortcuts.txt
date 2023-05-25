@@ -1,0 +1,7 @@
+List of VS Code Keyboard Shortcuts:
+
+1) To Show Command Palette: Ctrl+Shift+P, F1
+2) To Open or Go to File: Ctrl+P
+3) New visual code window or instance: Ctrl+Shift+N
+4) To Close window or instance: Ctrl+Shift+W
+5) To open User Settings: Ctrl+,
