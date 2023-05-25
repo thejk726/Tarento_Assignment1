@@ -47,7 +47,7 @@ class vector:
         self.a=a
         self.b=b
     
-    def __add__(self,other):
+    def __add__(self,other): #function to perform 2-D vector addition
         a_sum=self.a+other.a
         b_sum=self.b+other.b
         sum=vector(a_sum,b_sum)
@@ -73,5 +73,5 @@ print(2+3)
 print("Hello "+"World!")
 v1=vector(1,2)
 v2=vector(3,4)
-v_sum=v1+v2
+v_sum=v1+v2 # '+' operator return a new vector whose attributes have values equal to the sum of respective components of the two component methods.
 print(v_sum.a, v_sum.b)
